@@ -1,0 +1,119 @@
+.button {
+    background: #002f6c;  
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s, box-shadow 0.3s;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: 500;
+    gap: 6px;
+    
+}
+
+/* Hover Effect */
+.button:hover {
+    background: #0056b3;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Button Sizes */
+.button-small {
+    padding: 9.5px 19px;
+    font-size: 15px;
+    
+}
+
+.button-medium {
+    padding: 10px 16px;
+    font-size: 16px;
+}
+
+.button-large {
+    padding: 14px 20px;
+    font-size: 20px;
+}
+
+/*<h2> (home, evaluate, forgotPassword, login, register pages */
+.page-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #002f6c; 
+    text-decoration: none;
+}
+
+/* login,register, forget password */
+.auth-link{
+    color: #3498db;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.auth-link a:hover{
+    text-decoration: underline;
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 150px auto;
+    padding: 40px;
+    background: rgb(247, 251, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+/* Input Group Styling */
+.input-group {
+    display: flex;
+    align-items: center;  /* Ensures all elements are vertically centered */
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 2px 12px;
+    margin: 10px 0;
+    position: relative;
+}
+
+/* Style for the input field */
+.input-group input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 8px 0;
+    background: transparent;
+    color: #002f6c;
+    line-height: 1; /* Ensures consistent vertical alignment */
+}
+
+.input-group input::placeholder {
+    color: #888; /* Light gray placeholder */
+    opacity: 1;
+    font-size: 14px;
+}
+
+/* Icon inside input */
+.input-group .icon {
+    color: #002f6c;
+    font-size: 16px; 
+    display: flex;
+    align-items: center; 
+}
+
+/* Password toggle button */
+.password-toggle {
+    color: #002f6c;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+

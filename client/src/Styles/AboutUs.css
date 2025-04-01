@@ -1,0 +1,49 @@
+.picet-container {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f9fc;
+    padding-top: 80px;
+    border-radius: 8px;
+    margin-inline: auto;
+    padding-bottom: 80px;
+  }
+  
+  .picet-content {
+    width: 60%;
+  }
+  
+  .about-title {
+    color: #2066c9;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .picet-conference-title  {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .para {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .picet-videos {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  iframe {
+    width: 100%;
+    border-radius: 8px;
+  }
+  

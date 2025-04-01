@@ -1,0 +1,20 @@
+.banner {
+    background-color: #002f6c;  
+    padding: 20px 40px;  
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    height: 80px; 
+  }
+  
+  .bannercrumb {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .banner-title {
+    font-size: 25px;
+    margin: 5px 0 0 0;
+  }
+  
